@@ -1,0 +1,33 @@
+.page {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+.content {
+    background-color: #fefef5;
+    display: flex;
+    flex-direction: column;
+}
+
+.introduction {
+    background-color: #fefef5;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+}
+
+.introduction__names {
+    display: flex;
+    flex-direction: column;
+    /*font-family: "GreatVibes";*/
+    font-family: "Great Vibes updock", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.timetable {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
