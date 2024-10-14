@@ -27,41 +27,45 @@
             <img class="introduction__image" src="./img/hands_main.jpg" alt="introduction__image">
         </section>
         <section class="timetable item">
-            <h2 class="timetable__title">Программа дня</h2>
+            <h2 class="timetable__title section-title">Программа дня</h2>
             <ul class="timetable__items">
                 <li class="timetable__item">
-                    <span>16:20</span>
+                    <span class="timetable__item_time">16:20</span>
                     <img class="timetable__item_image" src="./img/timetable_1.png" alt="">
-                    <span>Сбор гостей</span>
-                    <span>Адрес: ул. Фурштатская, д. 52.</span>
+                    <div style="display: flex; flex-direction: column">
+                        <span class="timetable__item_title">Сбор гостей</span>
+                        <span class="timetable__item_subtitle">Адрес: ул. Фурштатская, д. 52.</span>
+                    </div>
                 </li>
                 <li class="timetable__item">
-                    <span>16:40</span>
+                    <span class="timetable__item_time">16:40</span>
                     <img class="timetable__item_image"  src="./img/timetable_2.jpg" alt="">
-                    <span>Свадебная церемония</span>
+                    <span class="timetable__item_title">Свадебная церемония</span>
                 </li>
                 <li class="timetable__item">
-                    <span>18:00</span>
+                    <span class="timetable__item_time">18:00</span>
                     <img class="timetable__item_image"  src="./img/timetable_3.jpg" alt="">
-                    <span>Торжественная часть</span>
-                    <span>Будет вкусно и душевно</span>
+                    <div style="display: flex; flex-direction: column">
+                        <span class="timetable__item_title">Торжественная часть</span>
+                        <span class="timetable__item_subtitle">Будет вкусно и душевно</span>
+                    </div>
                 </li>
                 <li class="timetable__item">
-                    <span>22:00</span>
+                    <span class="timetable__item_time">22:00</span>
                     <img class="timetable__item_image" src="./img/timetable_4.jpg" alt="">
-                    <span>Окончание вечера</span>
+                    <span class="timetable__item_title">Окончание вечера</span>
                 </li>
             </ul>
         </section>
         <section class="location item">
-            <h2>Локация</h2>
-            <span>Ресторан "La caramel"</span>
-            <span>Ул. Московская д.5</span>
-            <button onclick="showRestaurantMap()">Открыть карту</button>
+            <h2 class="section-title">Локация</h2>
+            <span class="location__name">Ресторан "Сыроварня"</span>
+            <span class="location__address">Ул. Московская д.5</span>
+            <button class="location__btn" onclick="showRestaurantMap()">Открыть карту</button>
             <img class="location__image" src="./img/restaurant_main.jpg" alt="">
         </section>
-        <section class="dress-cod item">
-            <h2>Дресс-код</h2>
+        <section class="dress-code item">
+            <h2 class="section-title">Дресс-код</h2>
             <span>Нам будет особенно приятно видеть Вас в нарядах цветовой гаммы нашей свадьбы.</span>
             <div class="colors">
                 <span class="color purple"></span>
@@ -72,9 +76,9 @@
             </div>
         </section>
         <section class="wishes item">
-            <h2>Наши пожелания</h2>
-            <span>Если хотите подарить нам ценный и нужный подарок, мы будем очень благодарны за вклад в бюджет нашей молодой семьи.</span>
-            <span>От всего сердца просим Вас воздержаться от криков "Горько!" и сохранить атмосферу уютного семейного таинства.</span>
+            <h2 class="section-title">Наши пожелания</h2>
+            <span class="wishes__item">Если хотите подарить нам ценный и нужный подарок, мы будем очень благодарны за вклад в бюджет нашей молодой семьи.</span>
+            <span class="wishes__item">От всего сердца просим Вас воздержаться от криков "Горько!" и сохранить атмосферу уютного семейного таинства.</span>
         </section>
     </main>
     <footer class="footer">

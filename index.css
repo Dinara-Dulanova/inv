@@ -1,5 +1,14 @@
 @import url("./fonts/fonts.css");
 
+.section-title {
+    text-align: center;
+    font-family: "GreatVibes";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    align-items: center;
+}
+
 .page {
     max-width: 1600px;
     margin: 0 auto;
@@ -8,7 +17,7 @@
 .item {
     display: flex;
     flex-direction: column;
-    margin: 20px auto;
+    margin: 0 auto;
     max-width: 560px;
 }
 
@@ -40,6 +49,8 @@
     font-style: normal;
     font-size: 30px;
     align-items: center;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .introduction__date {
@@ -60,29 +71,75 @@
     list-style-type: none;
 }
 
-.timetable__item_image {
-    width: 100px;
-    border-radius: 50%;
-    height: 100px;
-    object-fit: cover;
+.timetable__title {
 }
+
+.timetable__item {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr 3fr;
+    margin-bottom: 55px;
+}
+
+.timetable__item_time {
+    font-family: "GreatVibes";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.timetable__item_image {
+    width: 70px;
+    border-radius: 50%;
+    height: 70px;
+    object-fit: cover;
+    padding: 0 25px;
+}
+
+.timetable__item_title {
+    font-size: 22px;
+}
+
+.timetable__item_subtitle {
+    font-size: 16px;
+}
+
 
 .location {
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*margin: 20px auto;*/
+    text-align: center;
 }
 
-.dress-cod {
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*margin: 20px auto;*/
+.location__name {
+    font-size: 22px;
+}
+
+.location__address {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.location__btn {
+    font-size: 16px;
+    margin: 40px;
+    border-radius: 15px;
+    color: white;
+    background-color: #313030;
+    width: fit-content;
+    padding: 5px 15px;
+    align-self: center;
+}
+
+.dress-code {
+    text-align: center;
+    font-size: 22px;
 }
 
 .colors {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    margin: 10px auto;
+    margin: 20px auto;
     gap: 7px;
  }
 
@@ -94,11 +151,11 @@
 }
 
 .purple {
-    background-color: #c462c4;
+    background-color: #e7c5e7;
 }
 
 .blue {
-    background-color: #afe3f5;
+    background-color: #d7edfa;
 }
 
 .beige {
@@ -110,13 +167,15 @@
 }
 
 .green {
-    background-color: #ade5ad;
+    background-color: #ddf8dd;
 }
 
 .wishes {
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*margin: 20px auto;*/
+    font-size: 22px;
+}
+
+.wishes__item {
+    margin-bottom: 20px;
 }
 
 @media only screen and (max-device-width: 320px){
