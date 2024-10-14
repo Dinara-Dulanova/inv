@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Научиться учиться</title>
+    <title>Александр и Ольга</title>
     <link rel="stylesheet" href="./index.css">
+<!--    <link rel="stylesheet" href="./fonts/fonts.css">-->
 
 <!--    <link rel="preconnect" href="https://fonts.googleapis.com">-->
 <!--    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
@@ -15,45 +16,65 @@
     <header class="header">
     </header>
     <main class="content">
-        <section class="introduction">
-            <div class="introduction__names">
+        <section class="introduction item">
+            <div class="introduction__names item">
                 <span>Александр</span>
                 <span>и</span>
                 <span>Ольга</span>
             </div>
-            <span class="introduction__text">Мы будем рады разделить с Вами радость неповторимого для нас для - дня нашей свадьбы</span>
-            <span  class="introduction__date">24.08.25</span>
-            <img class="introduction__image" src="" alt="">
+            <span class="introduction__text item">Мы будем рады разделить с Вами радость неповторимого для нас для - дня нашей свадьбы</span>
+            <span  class="introduction__date item">24.08.25</span>
+            <img class="introduction__image" src="./img/hands_main.jpg" alt="introduction__image">
         </section>
-        <section class="timetable">
+        <section class="timetable item">
             <h2 class="timetable__title">Программа дня</h2>
             <ul class="timetable__items">
                 <li class="timetable__item">
-                    <span>12:00</span>
-                    <img src="" alt="">
+                    <span>16:20</span>
+                    <img class="timetable__item_image" src="./img/timetable_1.png" alt="">
                     <span>Сбор гостей</span>
+                    <span>Адрес: ул. Фурштатская, д. 52.</span>
                 </li>
                 <li class="timetable__item">
-                    <span>12:00</span>
-                    <img src="" alt="">
-                    <span>Сбор гостей</span>
+                    <span>16:40</span>
+                    <img class="timetable__item_image"  src="./img/timetable_2.jpg" alt="">
+                    <span>Свадебная церемония</span>
                 </li>
                 <li class="timetable__item">
-                    <span>12:00</span>
-                    <img src="" alt="">
-                    <span>Сбор гостей</span>
+                    <span>18:00</span>
+                    <img class="timetable__item_image"  src="./img/timetable_3.jpg" alt="">
+                    <span>Торжественная часть</span>
+                    <span>Будет вкусно и душевно</span>
                 </li>
                 <li class="timetable__item">
-                    <span>12:00</span>
-                    <img src="" alt="">
-                    <span>Сбор гостей</span>
+                    <span>22:00</span>
+                    <img class="timetable__item_image" src="./img/timetable_4.jpg" alt="">
+                    <span>Окончание вечера</span>
                 </li>
             </ul>
         </section>
-        <section class="location">
+        <section class="location item">
+            <h2>Локация</h2>
             <span>Ресторан "La caramel"</span>
             <span>Ул. Московская д.5</span>
-            <button onclick="">Открыть карту</button>
+            <button onclick="showRestaurantMap()">Открыть карту</button>
+            <img class="location__image" src="./img/restaurant_main.jpg" alt="">
+        </section>
+        <section class="dress-cod item">
+            <h2>Дресс-код</h2>
+            <span>Нам будет особенно приятно видеть Вас в нарядах цветовой гаммы нашей свадьбы.</span>
+            <div class="colors">
+                <span class="color purple"></span>
+                <span class="color blue"></span>
+                <span class="color beige"></span>
+                <span class="color grey"></span>
+                <span class="color green"></span>
+            </div>
+        </section>
+        <section class="wishes item">
+            <h2>Наши пожелания</h2>
+            <span>Если хотите подарить нам ценный и нужный подарок, мы будем очень благодарны за вклад в бюджет нашей молодой семьи.</span>
+            <span>От всего сердца просим Вас воздержаться от криков "Горько!" и сохранить атмосферу уютного семейного таинства.</span>
         </section>
     </main>
     <footer class="footer">

@@ -1,8 +1,16 @@
+@import url("./fonts/fonts.css");
+
 .page {
     max-width: 1600px;
     margin: 0 auto;
 }
 
+.item {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    max-width: 560px;
+}
 
 .content {
     background-color: #fefef5;
@@ -18,16 +26,105 @@
 }
 
 .introduction__names {
-    display: flex;
-    flex-direction: column;
-    /*font-family: "GreatVibes";*/
-    font-family: "Great Vibes updock", cursive;
+    font-family: "GreatVibes";
     font-weight: 400;
     font-style: normal;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction__text {
+    font-family: "GreatVibes";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    align-items: center;
+}
+
+.introduction__date {
+    font-family: "GreatVibes";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    align-items: center;
 }
 
 .timetable {
-    display: flex;
-    flex-direction: column;
-    margin: 20px auto;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*margin: 20px auto;*/
+}
+
+.timetable__items {
+    list-style-type: none;
+}
+
+.timetable__item_image {
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.location {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*margin: 20px auto;*/
+}
+
+.dress-cod {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*margin: 20px auto;*/
+}
+
+.colors {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 10px auto;
+    gap: 7px;
+ }
+
+.color {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+}
+
+.purple {
+    background-color: #c462c4;
+}
+
+.blue {
+    background-color: #afe3f5;
+}
+
+.beige {
+    background-color: beige;
+}
+
+.grey {
+    background-color: #d3d3d3;
+}
+
+.green {
+    background-color: #ade5ad;
+}
+
+.wishes {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*margin: 20px auto;*/
+}
+
+@media only screen and (max-device-width: 320px){
+    .colors {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 10px auto;
+        gap: 7px;
+    }
 }
