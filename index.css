@@ -9,6 +9,10 @@
     align-items: center;
 }
 
+.hov:hover {
+    cursor: pointer;
+}
+
 .page {
     max-width: 1600px;
     margin: 0 auto;
@@ -176,6 +180,25 @@
 
 .wishes__item {
     margin-bottom: 20px;
+}
+
+.contacts {
+    font-size: 22px;
+}
+
+.footer {
+    padding: 50px;
+    background-color: #fefef5;
+    display: flex;
+    flex-direction: column
+}
+
+.footer__text {
+    font-family: "GreatVibes";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    text-align: center;
 }
 
 @media only screen and (max-device-width: 320px){

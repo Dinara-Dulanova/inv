@@ -61,7 +61,7 @@
             <h2 class="section-title">Локация</h2>
             <span class="location__name">Ресторан "Сыроварня"</span>
             <span class="location__address">Ул. Московская д.5</span>
-            <button class="location__btn" onclick="showRestaurantMap()">Открыть карту</button>
+            <button class="location__btn hov" onclick="showRestaurantMap()">Открыть карту</button>
             <img class="location__image" src="./img/restaurant_main.jpg" alt="">
         </section>
         <section class="dress-code item">
@@ -80,8 +80,18 @@
             <span class="wishes__item">Если хотите подарить нам ценный и нужный подарок, мы будем очень благодарны за вклад в бюджет нашей молодой семьи.</span>
             <span class="wishes__item">От всего сердца просим Вас воздержаться от криков "Горько!" и сохранить атмосферу уютного семейного таинства.</span>
         </section>
+        <section class="contacts item">
+            <h2 class="section-title">Контакты</h2>
+            <span class="contacts__org">По любым вопросам вы можете обратиться к нашему свадебному организотору</span>
+            <div style="padding-top: 20px; text-align: center">
+                <span>Мария</span>
+                <span class="hov" onclick="chatWithOrganizator()">+7 963 136 63 87</span>
+            </div>
+
+        </section>
     </main>
     <footer class="footer">
+        <span class="footer__text">До встречи!</span>
     </footer>
 </div>
 <script src="js.js" async></script>
