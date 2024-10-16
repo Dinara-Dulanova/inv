@@ -28,34 +28,149 @@
         </section>
         <section class="timetable item">
             <h2 class="timetable__title section-title">Программа дня</h2>
-            <ul class="timetable__items">
-                <li class="timetable__item">
-                    <span class="timetable__item_time">16:20</span>
-                    <img class="timetable__item_image" src="./img/timetable_1.png" alt="">
-                    <div style="display: flex; flex-direction: column">
-                        <span class="timetable__item_title">Сбор гостей</span>
-                        <span class="timetable__item_subtitle">Адрес: ул. Фурштатская, д. 52.</span>
+            <div class="container">
+                <div class="step  timetable__item">
+                    <div class="content timetable__item_time">
+                        16:20
                     </div>
-                </li>
-                <li class="timetable__item">
-                    <span class="timetable__item_time">16:40</span>
-                    <img class="timetable__item_image"  src="./img/timetable_2.jpg" alt="">
-                    <span class="timetable__item_title">Свадебная церемония</span>
-                </li>
-                <li class="timetable__item">
-                    <span class="timetable__item_time">18:00</span>
-                    <img class="timetable__item_image"  src="./img/timetable_3.jpg" alt="">
+                    <div class="v-stepper">
+<!--                        <div class="circle">-->
+                            <img class="timetable__item_image" src="./img/timetable_1.png" alt="">
+<!--                        </div>-->
+                        <div class="line"></div>
+                    </div>
+                    <div class="content">
+                        <div style="display: flex; flex-direction: column">
+                            <span class="timetable__item_title">Сбор гостей</span>
+                            <span class="timetable__item_subtitle">Адрес: ул. Фурштатская, д. 52.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="step  timetable__item">
+                    <div class="content timetable__item_time">
+                        16:40
+                    </div>
+                    <div class="v-stepper">
+                        <img class="timetable__item_image" src="./img/timetable_2.jpg" alt="">
+<!--                        <div class="circle"></div>-->
+                        <div class="line"></div>
+                    </div>
+                    <div class="content">
+                        <span class="timetable__item_title">Свадебная церемония</span>
+                    </div>
+                </div>
+                <div class="step  timetable__item">
+                    <div class="content timetable__item_time">
+                        18:00
+                    </div>
+                    <div class="v-stepper">
+<!--                        <div class="circle"></div>-->
+                        <img class="timetable__item_image" src="./img/timetable_3.jpg" alt="">
+                        <div class="line"></div>
+                    </div>
                     <div style="display: flex; flex-direction: column">
                         <span class="timetable__item_title">Торжественная часть</span>
                         <span class="timetable__item_subtitle">Будет вкусно и душевно</span>
                     </div>
-                </li>
-                <li class="timetable__item">
-                    <span class="timetable__item_time">22:00</span>
-                    <img class="timetable__item_image" src="./img/timetable_4.jpg" alt="">
-                    <span class="timetable__item_title">Окончание вечера</span>
-                </li>
-            </ul>
+                </div>
+                <div class="step timetable__item">
+                    <div class="content timetable__item_time">
+                        22:00
+                    </div>
+                    <div class="v-stepper">
+<!--                        <div class="circle"></div>-->
+                        <img class="timetable__item_image" src="./img/timetable_4.jpg" alt="">
+                        <div class="line"></div>
+                    </div>
+
+                    <div class="content">
+                        <span class="timetable__item_title">Окончание вечера</span>
+                    </div>
+                </div>
+
+            </div>
+<!--            <ul class="timetable__items">-->
+<!--                <li class="timetable__item">-->
+<!--                    <span class="timetable__item_time">16:20</span>-->
+<!--                    <img class="timetable__item_image" src="./img/timetable_1.png" alt="">-->
+<!--                    <div style="display: flex; flex-direction: column">-->
+<!--                        <span class="timetable__item_title">Сбор гостей</span>-->
+<!--                        <span class="timetable__item_subtitle">Адрес: ул. Фурштатская, д. 52.</span>-->
+<!--                    </div>-->
+<!--                    <div></div>-->
+<!--                    <div style="width: 70px;-->
+<!--                            border-radius: 50%;-->
+<!--                            height: 70px;-->
+<!--                            object-fit: cover;-->
+<!--                            padding: 0 25px;-->
+<!--                            display: flex;-->
+<!--                            justify-content: center;">-->
+<!--                        <span style="width: 2px;-->
+<!--                        height: 70px;-->
+<!--                        object-fit: cover;-->
+<!--                        padding: 0 25px;-->
+<!--                        overflow-wrap: break-word;-->
+<!--                        text-align: center;">-->
+<!--                            |||||-->
+<!--                        </span>-->
+<!--                    </div>-->
+<!--                    <div></div>-->
+<!--                </li>-->
+<!--                <li class="timetable__item">-->
+<!--                    <span class="timetable__item_time">16:40</span>-->
+<!--                    <img class="timetable__item_image"  src="./img/timetable_2.jpg" alt="">-->
+<!--                    <span class="timetable__item_title">Свадебная церемония</span>-->
+<!--                    <div></div>-->
+<!--                    <div style="width: 70px;-->
+<!--                            border-radius: 50%;-->
+<!--                            height: 70px;-->
+<!--                            object-fit: cover;-->
+<!--                            padding: 0 25px;-->
+<!--                            display: flex;-->
+<!--                            justify-content: center;">-->
+<!--                        <span style="width: 2px;-->
+<!--                        height: 70px;-->
+<!--                        object-fit: cover;-->
+<!--                        padding: 0 25px;-->
+<!--                        overflow-wrap: break-word;-->
+<!--                        text-align: center;">-->
+<!--                            |||||-->
+<!--                        </span>-->
+<!--                    </div>-->
+<!--                    <div></div>-->
+<!--                </li>-->
+<!--                <li class="timetable__item">-->
+<!--                    <span class="timetable__item_time">18:00</span>-->
+<!--                    <img class="timetable__item_image"  src="./img/timetable_3.jpg" alt="">-->
+<!--                    <div style="display: flex; flex-direction: column">-->
+<!--                        <span class="timetable__item_title">Торжественная часть</span>-->
+<!--                        <span class="timetable__item_subtitle">Будет вкусно и душевно</span>-->
+<!--                    </div>-->
+<!--                    <div></div>-->
+<!--                    <div style="width: 70px;-->
+<!--                            border-radius: 50%;-->
+<!--                            height: 70px;-->
+<!--                            object-fit: cover;-->
+<!--                            padding: 0 25px;-->
+<!--                            display: flex;-->
+<!--                            justify-content: center;">-->
+<!--                        <span style="width: 2px;-->
+<!--                        height: 70px;-->
+<!--                        object-fit: cover;-->
+<!--                        padding: 0 25px;-->
+<!--                        overflow-wrap: break-word;-->
+<!--                        text-align: center;">-->
+<!--                            |||-->
+<!--                        </span>-->
+<!--                    </div>-->
+<!--                    <div></div>-->
+<!--                </li>-->
+<!--                <li class="timetable__item">-->
+<!--                    <span class="timetable__item_time">22:00</span>-->
+<!--                    <img class="timetable__item_image" src="./img/timetable_4.jpg" alt="">-->
+<!--                    <span class="timetable__item_title">Окончание вечера</span>-->
+<!--                </li>-->
+<!--            </ul>-->
         </section>
         <section class="location item">
             <h2 class="section-title">Локация</h2>

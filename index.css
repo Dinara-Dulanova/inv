@@ -1,5 +1,51 @@
 @import url("./fonts/fonts.css");
 
+
+/*.container {*/
+/*    width: 25%;*/
+/*}*/
+
+.step {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.v-stepper {
+    position: relative;
+}
+
+
+.step .circle {
+    background-color: white;
+    border: 3px solid gray;
+    border-radius: 100%;
+    width: 20px;    /* +6 for border */
+    height: 20px;
+    display: inline-block;
+}
+
+.step .line {
+    top: 73px;
+    left: 58px;
+    height: 100%;
+
+    position: absolute;
+    border-left: 2px solid black;
+}
+
+
+.step:last-child .line {
+    border-left: 3px solid white;
+    z-index: -1; /* behind the circle to completely hide */
+}
+
+.content {
+    margin-left: 20px;
+    display: inline-block;
+}
+
 .section-title {
     text-align: center;
     font-family: "GreatVibes";
@@ -83,6 +129,7 @@
     align-items: center;
     display: grid;
     grid-template-rows: 1fr;
+    /*grid-template-rows: 1fr 1fr;*/
     grid-template-columns: 1fr 2fr 3fr;
     margin-bottom: 55px;
 }
@@ -201,7 +248,7 @@
     text-align: center;
 }
 
-@media only screen and (max-device-width: 320px){
+@media only screen and (max-width: 320px){
     .colors {
         display: grid;
         grid-template-rows: 1fr 1fr;
