@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "B52";
+    src: url(7783-fontps.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "XTypewriter-Regular";
+    src: url(XTypewriter-Regular.woff) format('woff');
+}
+
+@font-face {
+    font-family: "NashaNiwa";
+    src: url(NashaNiva-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: "Edu";
+    src: url(Edu.ttf) format('truetype');
+}
